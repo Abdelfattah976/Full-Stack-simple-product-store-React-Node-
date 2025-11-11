@@ -1,0 +1,37 @@
+# -------------------------------------------------
+# 1. Node modules (both projects)
+# -------------------------------------------------
+frontend/node_modules/
+backend/node_modules/
+node_modules/
+
+# -------------------------------------------------
+# 2. Build / cache folders
+# -------------------------------------------------
+frontend/dist/
+frontend/.vite/
+
+# -------------------------------------------------
+# 3. Environment files (never commit secrets)
+# -------------------------------------------------
+.env
+.env.local
+*.env.local
+.env.*.local
+
+# -------------------------------------------------
+# 4. OS / IDE junk
+# -------------------------------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+
+# -------------------------------------------------
+# 5. Lock files – keep only ONE at the root
+# -------------------------------------------------
+# (optional – comment out the line you don’t want)
+# package-lock.json
+# backend/package-lock.json
+# frontend/package-lock.json
